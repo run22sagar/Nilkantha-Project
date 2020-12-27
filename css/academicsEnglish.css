@@ -13,6 +13,9 @@ body{
     font-size: 1.2em;
     line-height:1.8;
     overflow-x: hidden;
+		display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .top-bar
@@ -79,6 +82,7 @@ body{
 	font-size: 15px;
 	line-height: 24px;
 	color: #737373;
+	margin-top: 5%;
 
 }
 

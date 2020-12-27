@@ -14,6 +14,9 @@ body{
     font-size: 1.2em;
     line-height:1.8;
     overflow-x: hidden;
+		display: flex;
+	  flex-direction: column;
+	  height: 100%;
 }
 
 .top-bar
@@ -47,10 +50,10 @@ body{
 /*gallery styling*/
 
 .gallery{
-	height: 1170px;
+
 	width: 100%;
 	padding: 40px 0 150px;
-	
+
 
 }
 
@@ -59,7 +62,7 @@ body{
 }
 
 .card{
-	margin-top: 40px; 
+	margin-top: 40px;
 }
 
 
@@ -72,7 +75,8 @@ body{
 	font-size: 15px;
 	line-height: 24px;
 	color: #737373;
-	
+	margin-top: auto;
+
 }
 
 .footer hr{
@@ -148,7 +152,7 @@ body{
 	margin-right: 0;
 	border-radius: 100%;
 	background-color: #33353d;
-	
+
 }
 
 .social-icons{
@@ -202,7 +206,7 @@ body{
 		height: 420px;
 	}
 
-	
+
 
 	.footer-links li{
 		font-size: 14.5px;
@@ -220,7 +224,7 @@ body{
 
 	.footer{
 		padding-top: 10px;
-		
+
 	}
 
 	.footer .copyright-text,
@@ -238,18 +242,3 @@ body{
 		padding-top: 15px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
