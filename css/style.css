@@ -451,6 +451,30 @@ top: 280px !important;
 {
   margin-top: 5%;
 }
+ /*------------------Gallery.css-----*/
+/*gallery Page styling*/
+
+.gallery{
+
+	width: 100%;
+	padding: 40px 0 150px;
+}
+
+.gallery h1{
+	font-size: 35px;
+}
+
+.card{
+	margin-top: 40px;
+}
+
+.gallery_sports{
+
+	width: 100%;
+	padding: 50px 0 150px;
+
+
+}
 
 
 
@@ -498,5 +522,31 @@ top: 280px !important;
 	.size
 	{
 		height: 60vh;
+	}
+}
+
+@media (max-width: 1085px){
+	.gallery{
+		height: 1050px;
+	}
+}
+
+@media (max-width: 991px){
+	.gallery{
+		height: 950px;
+	}
+
+	.bgimg{
+		height: 420px;
+	}
+
+
+
+	.footer-links li{
+		font-size: 14.5px;
+	}
+
+	.footer p{
+		font-size: 14.5px;
 	}
 }
