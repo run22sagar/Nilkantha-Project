@@ -60,18 +60,55 @@
 		height: 60px;
 	width: 100%;
 }
+
+.noticeBox
+{
+  width: 80px;
+  height: 60px;
+  background-color: red;
+  color: white;
+}
 .content marquee
 {
 	padding-top: 10px;
-	color: white ;
+	color: black !important ;
 	display: inline-block;
 	text-decoration: none;
 	line-height: 1em;
 	padding: 20px;
-
-
-
 }
+.content a
+{
+  color: black !important;
+}
+/* .marquee
+{
+  position: absolute;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+}
+@-webkit-keyframe rightThenLeft
+{
+  0% {left: 0%;}
+  50% {left: 100%;}
+  100% {left: 0%;}
+} */
+
+
+/* .wrapper{
+    max-width: 400px;
+    background: green;
+    height: 40px;
+    text-align: right;
+} */
+
+.marquee {
+    background: red;
+    /* white-space: nowrap; */
+    -webkit-animation: right 4s linear;
+}
+
+
 .content marquee a
 {
 	color: white;
