@@ -10,6 +10,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/style_sportsday.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
   </head>
@@ -197,83 +198,72 @@
 
         <h5>Glimpses of Annual Sports Day 2018</h5>
 
-        <!--  first row -->
 
-        <div class="row">
+
+        <div class="row gallerys">
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
 
             </div>
           </div>
 
-        </div>
-
-        <!--  second row -->
-
-        <div class="row">
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
-
-            </div>
-          </div>
-
-        </div>
-
-
-        <!-- third row -->
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
-            <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
             <div class="card">
-              <a href="#"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+              <a href="img/gallery/3.jpg" target="
+              "><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+            <div class="card">
+              <a href="img/gallery/3.jpg" target="_blank"><img src="img/gallery/3.jpg" class="card-img img-fluid"></a>
 
             </div>
           </div>
@@ -355,6 +345,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- image slider effects -->
+    <script >
+
+      $(document).ready(function(){
+        $('.gallerys').magnificPopup({
+          type: 'image',
+          delegate: 'a',
+          gallery: {
+            enabled: true
+          }
+        });
+
+      });
+
+    </script>
 
   </body>
 </html>
