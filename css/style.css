@@ -53,6 +53,7 @@
 	width: 100%;
 	background-color: #01274c;
 
+
 }
 .content
 {
@@ -64,9 +65,16 @@
 .noticeBox
 {
   width: 80px;
-  height: 60px;
-  background-color: red;
+  height: 60px !important;
+  /* background-color: red; */
+  font-weight: bold;
   color: white;
+  /* line-height: 50px; */
+  /* position: relative; */
+}
+.noticeBox p
+{
+  height:60px;
 }
 .content marquee
 {
@@ -79,33 +87,14 @@
 }
 .content a
 {
-  color: black !important;
+  color: white !important;
 }
-/* .marquee
-{
-  position: absolute;
-  white-space: nowrap;
-  -webkit-animation: rightThenLeft 4s linear;
-}
-@-webkit-keyframe rightThenLeft
-{
-  0% {left: 0%;}
-  50% {left: 100%;}
-  100% {left: 0%;}
-} */
 
-
-/* .wrapper{
-    max-width: 400px;
-    background: green;
-    height: 40px;
-    text-align: right;
-} */
-
-.marquee {
-    background: red;
+.noticeText {
+    /* background: red; */
     /* white-space: nowrap; */
     -webkit-animation: right 4s linear;
+    position: absolute;
 }
 
 
@@ -124,11 +113,27 @@
 
 /* --------------Starts Here------------*/
 
-.size
+.padding-all {
+    padding: 20px 50px;
+}
+.lesson-box {
+    height: 120px;
+    width: 100%;
+    padding:30px !important;
+
+}
+.nil_icon
+{
+  height: 25px;
+  width: 25px !important;
+}
+
+
+/* .size
 {
 	padding-right: 0px !important;
     padding-left: 0px !important;
- }
+ } */
 
 .nil_starts
 {
