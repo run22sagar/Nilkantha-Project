@@ -10,6 +10,25 @@
 }
 
 /*NavBar CSS*/
+.nav-area{
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: top .6s;
+  overflow: hidden;
+
+}
+.nav-area.animate
+{
+  top: -100px;
+}
+.nav-area.sticky
+{
+  top: 0;
+  z-index:99;
+}
 
 .top-bar
 {
@@ -517,8 +536,29 @@ top: 280px !important;
 
 
 }
-
-
+/*contact us page styling*/
+.page-desc
+{
+  padding:40px;
+}
+.contact-box{
+  margin: 30px;
+}
+.contact-icon {
+    color: #fff;
+    padding-top: 20px;
+}
+.contact-icon-bg {
+    height: 80px;
+    background-color: #01274c;
+}
+.contact-body {
+    background-color: #fff;
+    color: #1b1e21;
+}
+.s-icons {
+    padding: 5px;
+}
 
 
 
