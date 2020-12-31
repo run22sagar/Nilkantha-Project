@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/fixed.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="observe.js"></script>
+
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
@@ -17,10 +17,10 @@
 <!-- <header class="nav-area"> -->
 	<header class="">
 
-	<div class="row">
+	<div class="row ">
 
 		<!-- Top NavBar Starts: Displaying Address and Login, No Display on Mobile View smart-scroll -->
-		<nav class="navscroll navbar fixed-top navbar-expand-lg navbar-light  top-bar">
+		<nav class="navbar  navbar-expand-lg navbar-light fixed-top top-bar bgcolor">
 		    <div class="container">
       <ul class="list-inline mb-0 py-2" >
       	<li class="list-inline-item" >
@@ -70,7 +70,7 @@
 <!--Start of Bottom / Main Nav Bar -->
 <div class="row">
 
-	<nav class="navscroll navbar fixed-top navbar-expand-lg navbar-dark  down-bar ">
+	<nav class="navscroll navbar fixed-top navbar-expand-lg navbar-dark  down-bar bgcolor ">
     <div class="container">
 
       <!-- Brand -->
@@ -524,10 +524,16 @@
 
 
 
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script>
+		$(window).scroll(function()
+	{
+		
+		$('nav').toggleClass('scrolled',$(this).scrollTop()>50);
+	});
+	</script>
 
 
 
